@@ -1,7 +1,7 @@
 import { useState } from 'react'
 
 // 초대 코드 목록 (여기서 관리)
-const INVITE_CODES = ['SCRIPT2026', 'CREATOR01', 'BETA001', 'SHORTS99', 'REEL2026']
+const INVITE_CODES = ['SCRIPT2026', 'CREATOR01', 'BETA001', 'SHORTS99', 'REEL2026', 'KENNY','KLAUS','ETHAN','MATTHEW']
 
 function InviteGate({ children }) {
   const [code, setCode] = useState('')
